@@ -120,7 +120,6 @@ header .dropdown-menu>li>a:active {
     background-size: cover;
     background-position: center;
 }
-
 .online ::placeholder {
     color: #0c0d0d;
     font-weight: bold;
@@ -343,7 +342,7 @@ header .dropdown-menu>li>a:active {
     margin-left: 2px !important;
 }
 .best .myslide .col{
-    display: flex;   
+    display: flex ;  
 }
 .best .carousel-inner img{
     height: 300px;
