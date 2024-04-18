@@ -1,0 +1,405 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.text-orange {
+    color: #F5A427;
+}
+
+.text-blue {
+    color: #6f6fdc;
+}
+
+.bg-blue {
+    background-color: #172236;
+}
+
+.bg-darkblue {
+    background-color: #0D1226;
+}
+
+.bg-grey {
+    background-color: #b2c3e4;
+}
+
+.bg-darkgrey {
+    background-color: #35415a;
+}
+
+.bg-orange {
+    background-color: #F5A427;
+}
+
+.border-orange {
+    border-color: #F5A427 !important;
+}
+
+.btn-orange {
+    background-color: #F5A427;
+    color: #fff;
+}
+
+.btn-blue {
+    background-color: #0D1226;
+    color: #fff;
+}
+
+.myhr {
+    margin-left: 45%;
+    transform: rotate(90deg);
+    width: 100px;
+    font-weight: 900;
+    color: #9c9ca2;
+}
+
+/* header starts */
+header {
+    width: 100%;
+    background-color: #172236;
+}
+
+header .nav-item ul li a {
+    color: #fff !important;
+}
+
+header .dropdown-menu>li>a:hover {
+    background-color: #2e3f5f;
+}
+
+header .dropdown-menu>li>a:active {
+    color: #F5A427 !important;
+}
+
+/* header ends */
+/* banner section starts */
+.banner {
+    width: 100%;
+    height: 500px;
+    background: linear-gradient(rgba(9, 55, 79, 0.8), rgba(3, 31, 52, 0.8)), url(../img/banner.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.banner button:hover {
+    background-color: #2e3f5f;
+    color: #fff;
+}
+
+.my-popover {
+    --bs-popover-bg: #F5A427;
+    --bs-popover-body-color: #fff;
+    --bs-popover-header-color: #fff;
+    --bs-popover-header-font-size: 30px;
+    --bs-popover-header-bg: #F5A427;
+}
+
+/* banner section ends */
+/* best education section starts */
+.best {
+    width: 100%;
+    height: auto;
+    background: linear-gradient(rgba(1, 34, 52, 0.8), rgba(2, 26, 44, 0.9)), url(../img/book.jpg);
+    background-size: 100% 100%;
+    background-position: center;
+}
+
+.best .form-check-input:checked {
+    border: 2px solid #0D1226;
+    background-color: #F5A427;
+    color: #F5A427;
+}
+
+/* best education section ends */
+/* Online section starts */
+.online {
+    width: 100%;
+    height: 500px;
+    background: linear-gradient(rgba(1, 34, 52, 0.8), rgba(2, 26, 44, 0.7)), url(../img/read1.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+
+.online ::placeholder {
+    color: #0c0d0d;
+    font-weight: bold;
+    opacity: 1;
+}
+
+.online .button {
+    margin-left: 150px;
+    padding: 2px 5px;
+}
+
+/* Online section ends */
+/* choose course section starts */
+.best1{
+    width: 100%;
+    height: auto;
+    background: linear-gradient(rgba(1, 34, 52, 0.8), rgba(2, 26, 44, 0.9)), url(../img/book.jpg);
+    background-size: 100% 100%;
+    background-position: center;
+}
+
+/* choose course section ends */
+/* presentation starts */
+.present {
+    width: 100%;
+    height: 400px;
+    background: linear-gradient(rgba(1, 34, 52, 0.8), rgba(2, 26, 44, 0.8)), url(../img/library1.jpg);
+    background-size: cover;
+    background-position: center;
+}
+/* presentation ends */
+/* touch starts */
+.best2{
+    width: 100%;
+    height: auto;
+    background: linear-gradient(rgba(1, 34, 52, 0.8), rgba(2, 26, 44, 0.9)), url(../img/book.jpg);
+    background-size: 100% 100%;
+    background-position: center;
+}
+.best2 ::placeholder {
+    color: #2d3036;
+    font-weight: bold;
+    opacity: 1;
+}
+/* touch ends */
+/* media query section starts */
+@media screen and (max-width:992px) {
+    .banner {
+        height: 500px;
+    }
+    .myhr {
+        width: 45px;
+    }
+    .best{
+        padding-top: 1px !important;
+    }
+    .best .mycol{
+        margin-top: 0px !important;
+    }
+    .online{
+        height: 500px;
+    }
+    .online .div1{
+        margin-right:2px !important;
+        padding: 0px 2px !important;
+    }
+    .online .div2{
+        margin-left: 2px !important;
+        padding: 0px 2px !important;
+    }
+    .online .div1 .para{
+        font-size: 20px;
+    }
+    .online .div1 p{
+        font-size: 20px;
+    }
+    .online h1{
+        font-size: 10px;
+    }
+    .online .div2 .card-header{
+        font-size: 20px;
+    }
+    .present{
+        height: 500px;
+    }
+}
+
+@media screen and (max-width:576px) {
+    .banner {
+        height: 350px;
+    }
+    .banner .mybanner button {
+        padding: 3px;
+        width: 30px;
+        font-size: 5px;
+    }
+    
+    .banner h3 {
+        font-size: 15px;
+    }
+
+    .banner h1 {
+        font-size: 20px;
+    }
+
+    .mybanner {
+        margin-left: 2px !important;
+    }
+
+    .banner .mybanner button {
+        width: 100px;
+        font-size: 10px;
+    }
+
+    .my-popover {
+        --bs-popover-header-font-size: 20px;
+        --bs-popover-body-font-size: 15px;
+    }
+    .myhr {
+        width: 40px;
+    }
+.best{
+    padding-top: 1px !important;
+    height: 600px;
+}
+.best .mycol{
+    margin-top: 0px !important;
+}
+.best .myslide h5{
+    font-size: 15px;
+    margin-left:0px 2px !important;
+}
+.best .myslide .form-check-input{
+    margin-left: 2px !important;
+}
+.best .myslide .col{
+    display: flex;   
+}
+.best .carousel-inner img{
+    height: 300px;
+}
+.online{
+    height: 700px;
+}
+.online .div1{
+    margin-right: 2px !important;
+    padding: 0px 2px !important;
+}
+.online .div1 .para{
+    font-size: 10px;
+}
+.online .div1 p{
+    font-size: 10px;
+}
+.online .time p{
+    font-size: 10px !important;
+}
+.online h1{
+    font-size: 10px;
+}
+.best1{
+    padding-top: 1px !important;
+}
+.best1 .mycol1{
+    margin-top: 0px !important;
+}
+.present{
+    height: 600px;
+}
+.best2{
+    height: 700px;
+}
+.best2 iframe{
+    width:auto;
+    height:300px;
+}
+}
+
+@media screen and (max-width:320px) {
+    .banner {
+        height: 400px;
+    }
+
+    .banner h3 {
+        font-size: 15px;
+    }
+
+    .banner h1 {
+        font-size: 20px;
+    }
+
+    .mybanner {
+        margin-left: 2px !important;
+    }
+
+    .banner .mybanner button {
+        width: 100px;
+        font-size: 10px;
+    }
+
+    .my-popover {
+        --bs-popover-header-font-size: 20px;
+        --bs-popover-body-font-size: 15px;
+    }
+    .myhr {
+        width: 40px;
+    }
+.best{
+    padding-top: 1px !important;
+    height: 600px;
+}
+.best .mycol{
+    margin-top: 0px !important;
+}
+.best .myslide h5{
+    font-size: 15px;
+    margin-left:0px 2px !important;
+}
+.best .myslide .form-check-input{
+    margin-left: 2px !important;
+}
+.best .myslide .col{
+    display: flex;   
+}
+.best .carousel-inner img{
+    height: 300px;
+}
+.online{
+    height: 950px;
+}
+.online .container{
+    flex-direction:column;
+}
+.online .div1{
+    margin-right: 2px !important;
+    padding: 0px 2px !important;
+}
+.online .div1 .para{
+    font-size: 8px;
+}
+.online .div1 p{
+    font-size: 5px;
+}
+.online .time p{
+    font-size: 8px !important;
+}
+.online h1{
+    font-size: 8px;
+}
+.online .div2 p{
+    font-size: 12px;
+}
+.online .button {
+    margin-left: 55px;
+    padding: 2px 5px;
+}
+.best1{
+    padding-top: 1px !important;
+}
+.best1 .mycol1{
+    margin-top: 0px !important;
+}
+.present{
+    height: 800px;
+}
+.present .container{
+    flex-direction:column;
+}
+.best2{
+    height: 700px;
+    padding-top: 1px !important;
+}
+.best2 .container{
+flex-direction: column;
+}
+.best2 iframe{
+    width:270px;
+    height:150px;
+}  
+}
+
+/* media query section ends */
