@@ -281,6 +281,102 @@ font-size: 10px;
     font-size: 10px;
 }
 .online .time p{
+    font-size: 8px !important;
+}
+.online h1{
+    font-size: 10px;
+}
+.best1{
+    padding-top: 1px !important;
+}
+.best1 .mycol1{
+    margin-top: 0px !important;
+}
+.present{
+    height: 600px;
+}
+.best2{
+    height: 700px;
+}
+.best2 iframe{
+    width:auto;
+    height:300px;
+}
+}
+@media screen and (max-width:576px) {
+    .banner {
+        height: 350px;
+    }
+    .banner .mybanner button {
+        padding: 3px;
+        width: 30px;
+        font-size: 5px;
+    }
+    
+    .banner h3 {
+        font-size: 15px;
+    }
+
+    .banner h1 {
+        font-size: 20px;
+    }
+
+    .mybanner {
+        margin-left: 2px !important;
+    }
+
+    .banner .mybanner button {
+        width: 100px;
+        font-size: 10px;
+    }
+
+    .my-popover {
+        --bs-popover-header-font-size: 20px;
+        --bs-popover-body-font-size: 15px;
+    }
+    .myhr {
+        width: 40px;
+    }
+.best{
+    padding-top: 1px !important;
+    height: 600px;
+}
+.best .mycol{
+    margin-top: 0px !important;
+}
+.best .myslide h5{
+    font-size: 15px;
+    margin-left:0px 2px !important;
+}
+.best .myslide .form-check-input{
+    margin-left: 2px !important;
+}
+.best .myslide .col{
+    display: flex;   
+}
+.best .carousel-inner img{
+    height: 300px;
+}
+.best1 .card h4{
+font-size: 10px;
+} 
+.best1 .carouselExampleSlidesOnly .carousel-inner .carousel-item .card p{
+    font-size: 10px;
+    } 
+.online{
+    height: 700px;
+}
+.online .div1{
+    margin-right: 2px !important;
+    padding: 0px 2px !important;
+}
+.online .div1 .para{
+    font-size: 10px;
+}
+.online .div1 p{
+    font-size: 10px;
+}
+.online .time p{
     font-size: 10px !important;
 }
 .online h1{
@@ -392,14 +488,14 @@ font-size: 10px;
     height: 800px;
 }
 .present .container{
-    flex-direction:column;
+    flex-direction:column !important;
 }
 .best2{
     height: 700px;
     padding-top: 1px !important;
 }
 .best2 .container{
-flex-direction: column;
+flex-direction: column !important;
 }
 .best2 iframe{
     width:270px;
