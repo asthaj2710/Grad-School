@@ -458,7 +458,7 @@ font-size: 10px;
     height: 300px;
 }
 .online{
-    height: 1000px;
+    height: 1500px;
 }
 .online .container{
     flex-direction:column;
@@ -498,7 +498,7 @@ font-size: 10px;
     flex-direction:column !important;
 }
 .best2{
-    height: 750px;
+    height: 900px;
     padding-top: 1px !important;
 }
 .best2 .container{
