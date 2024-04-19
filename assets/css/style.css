@@ -459,7 +459,7 @@ font-size: 10px;
     height: 300px;
 }
 .online{
-    height: 1200px;
+    height: 1600px;
     padding: 2px 0px;
 }
 .online .container .row{
@@ -485,7 +485,7 @@ font-size: 10px;
     padding-top: 1px !important;
 }
 .best1 .mycol1{
-    margin-top: 0px !important;
+    margin-top:0px !important;
 }
 .best .card-body h4{
 font-size: 10px;
