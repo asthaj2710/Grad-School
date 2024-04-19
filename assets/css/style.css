@@ -276,6 +276,7 @@ font-size: 10px;
     } 
 .online{
     height: 900px;
+    padding: 2px 0px;
 }
 .online .para{
     font-size: 10px;
@@ -458,7 +459,8 @@ font-size: 10px;
     height: 300px;
 }
 .online{
-    height: 2000px;
+    height: 1200px;
+    padding: 2px 0px;
 }
 .online .container .row{
     flex-direction:column;
@@ -473,7 +475,7 @@ font-size: 10px;
     font-size: 10px !important;
 }
 .online h1{
-    font-size: 8px;
+    font-size: 8px !important;
 }
 .online .button {
  margin:0px 2px ;
