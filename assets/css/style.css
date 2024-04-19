@@ -459,11 +459,11 @@ font-size: 10px;
     height: 300px;
 }
 .online{
-    height: 1600px;
+    height: 1000px;
     padding: 2px 0px;
 }
 .online .container .row{
-    flex-direction:column;
+    flex-direction:column !important;
 }
 .online .para{
     font-size: 12px !important;
