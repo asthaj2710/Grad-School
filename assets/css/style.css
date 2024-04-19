@@ -458,16 +458,16 @@ font-size: 10px;
     height: 300px;
 }
 .online{
-    height: 1600px;
+    height: 2000px;
 }
 .online .container .row{
     flex-direction:column;
 }
 .online .para{
-    font-size: 12px;
+    font-size: 12px !important;
 }
 .online p{
-    font-size: 10px;
+    font-size: 10px !important;
 }
 .online .time p{
     font-size: 10px !important;
