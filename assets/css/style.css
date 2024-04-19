@@ -460,7 +460,7 @@ font-size: 10px;
 .online{
     height: 1500px;
 }
-.online .container{
+.online .container .row{
     flex-direction:column;
 }
 .online .para{
@@ -501,7 +501,7 @@ font-size: 10px;
     height: 900px;
     padding-top: 1px !important;
 }
-.best2 .container{
+.best2 .container .row{
 flex-direction: column !important;
 }
 .best2 iframe{
